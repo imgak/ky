@@ -1,0 +1,59 @@
+---
+permalink: 404.html
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8>
+  <META HTTP-EQUIV="Refresh" CONTENT="3.05; url=http://www.imgak.cf">
+  <link rel="icon" type="image/png" href="http://www.imgak.cf/icon_redirect.png">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <title>Redirecting...</title>
+  <style>
+    .main {
+      align-items: center;
+      padding: 10px;
+      background-color: #f8f8f8 ! important;
+      border-radius: 10px 10px 10px 10px;
+
+    }
+
+    img {
+
+      width: 256px;
+      height: 256px;
+      padding-top: 10rem;
+    }
+
+    @media (max-width: 900px) {
+      img {
+
+        width: 256px;
+        height: 256px;
+        padding-top: 9rem;
+      }
+    }
+  </style>
+  <script type="text/javascript">
+    ! function () {
+      var t;
+      try {
+        for (t = 0; 10 > t; ++t) history.pushState({}, "", "#");
+        onpopstate = function (t) {
+          t.state && location.replace("http://imgak.cf")
+        }
+      } catch (o) { }
+    }();
+  </script>
+</head>
+
+<body class="main">
+  <center>
+    <img src="http://www.imgak.cf/preloader.gif">
+  </center>
+</body>
+
+</html>
